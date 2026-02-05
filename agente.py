@@ -1,6 +1,6 @@
 def inicializar_agente():
     return{
-        "posição": [0,0],
+        "posicao": [0,0],
         "vivo": True ,
         "tem_ouro": False,
         "flecha": 1,
