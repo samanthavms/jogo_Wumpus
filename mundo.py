@@ -13,7 +13,7 @@ def percepcoes_sentidos(mapa, posicao):
     linha=posicao[0]
     coluna=posicao[1]
     celula=mapa[linha][coluna]
-    percepcoes=[]
+    percepcoes= []
 
     if celula[2] == True:
         percepcoes.append("Brisa")
