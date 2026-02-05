@@ -7,7 +7,7 @@ def criar_mundo():
         [(False,False,False,True,False),(False,False,False,False,False),(False,False,True,False,False),(False,False,False,False,True)]
 
     ]
-return mapa 
+    return mapa 
 
 def percepcoes_sentidos(mapa, posicao):
     linha=posicao[0]
