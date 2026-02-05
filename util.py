@@ -20,8 +20,8 @@ def exibir_menu():
     return escolha
 
 def mostrar_status(agente,percepcoes):
-    print(f'\n Posição atual:{agente['posicao']}')
-    print(f'inventário: OURO={agente['tem_ouro']} | Flechas={agente['flecha']}')
-    print(f'Pontos:{agente['pontos']}')
-    print('---'*30)
-    print(f'Percepções:{percepcoes}')
+    print(f"\n Posição atual:{agente['posicao']}")
+    print(f"inventário: OURO={agente['tem_ouro']} | Flechas={agente['flecha']}")
+    print(f"Pontos:{agente['pontos']}")
+    print("---"*30)
+    print(f"Percepções:{percepcoes}")

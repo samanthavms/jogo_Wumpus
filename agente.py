@@ -21,13 +21,13 @@ def mover(agente, direcao):
         agente["posicao"] [1] +=1
     #PARA OESTE O AGENTE VAI PARA ESQUERDA (DIMINUI A COLUNA)
     elif direcao == "O" and coluna > 0:
-        agente["posicao"] [1] +=1
+        agente["posicao"] [1] -=1
     else:
         print("Você bateu na parede da caverna ")
 
 def pegar_ouro(agente, percepcoes):
-    if Brilho in percepcoes:
-        agente["ouro"] = True
+    if 'Brilho' in percepcoes:
+        agente["tem_ouro"] = True
         print("Você capturou o ouro! Agora retorne para a entrada da caverna")
     else:
         print("Aqui não possui ouro")

@@ -9,9 +9,9 @@ def criar_mundo():
     ]
 return mapa 
 
-def percepcoes_sentidos(mapa):
+def percepcoes_sentidos(mapa, posicao):
     linha=posicao[0]
-    coluna=posição[1]
+    coluna=posicao[1]
     celula=mapa[linha][coluna]
     percepcoes=[]
 
