@@ -1,5 +1,5 @@
 def criar_mundo():
-# Toda tupla tem que ter Wunpus, Poço, Brisa Fedo e Ouro
+# Toda tupla tem que ter Wunpus, Poço, Brisa Fedor e Ouro
     mapa= [
         [(False,False,False,False,False),(False,False,True,False,False),(False,True,False,False,False),(False,False,True,False,False)],
         [(False, False, False,True,False ),(False,False,False,False,False),(False,False,True,False,False),(False,False,False,False,False)],
@@ -10,4 +10,16 @@ def criar_mundo():
 return mapa 
 
 def percepcoes_sentidos(mapa):
-linha
+    linha=posicao[0]
+    coluna=posição[1]
+    celula=mapa[linha][coluna]
+    percepcoes=[]
+
+    if celula[2] == True:
+        percepcoes.append("Brisa")
+    if celula[3] == True:
+        percepcoes.append("Fedor")
+    if celula[4] == True:
+        percepcoes.append("Brilho")
+    return percepcoes
+
